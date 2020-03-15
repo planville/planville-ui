@@ -1,0 +1,39 @@
+.Header {
+  height: 100px;
+  background-color: #333;
+  color: whitesmoke;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 20px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+  padding-left: 50px;
+  color: white;
+}
+
+a {
+  color: none;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+
+
+
+
