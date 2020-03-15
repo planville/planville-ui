@@ -2,14 +2,14 @@ import React from 'react';
 import './App.css';
 import Header from '../Header/Header';
 import Content from '../Content/Content';
-import Footer from '../Footer/Footer';
+import PFooter from '../PFooter/PFooter';
 
 function App() {
   return (
     <div>
       <Header />
       <Content />
-      <Footer />
+      <PFooter />
     </div>
   );
 }
