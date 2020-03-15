@@ -7,15 +7,11 @@ function Header() {
   return (
     
     <div className="Header">
-      
-        <Navbar.Brand style={{color: "white"}} href="#">PlanVille</Navbar.Brand>
-        <Nav className="mr-auto">
+        <Nav.Link style={{color: "white" }} href="#" >PlanVille</Nav.Link>
+        <nav class="Navbar__Items Navbar__Items--right">
           <Nav.Link style={{color: "white"}} href="#devices">Devices</Nav.Link>
-          <Nav.Link style={{color: "white"}} href="#plans">Plans</Nav.Link>
-          
-        </Nav>
-        
-      
+          <Nav.Link style={{color: "white"}} href="#plans">Plans</Nav.Link> 
+        </nav>  
     </div>
   );
   }
