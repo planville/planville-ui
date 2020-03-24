@@ -1,12 +1,12 @@
 import React from 'react';
-import './Content.css';
+import './About.css';
 
-function Content() {
+function About() {
   return (
-    <div className="Content">
-      <h1>Main Page Content</h1>
+    <div className="About">
+      <h1>About</h1>
     </div>
   );
 }
 
-export default Content;
+export default About;
