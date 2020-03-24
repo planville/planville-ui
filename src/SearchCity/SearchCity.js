@@ -6,9 +6,9 @@ import { Form, FormControl,Button } from 'react-bootstrap';
 function SearchCity() {
   return (
     <div className="Content">
-      <Form inline>
-          <FormControl type="text" placeholder="Search" className="mr-sm-2" style={{alignItems: 'center'}} />
-          <Button variant="outline-info">Search By City</Button>
+      <Form inline className="centered">
+          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+          <Button variant="outline-info" className="button">Search By City</Button>
         </Form>
     </div>
   );
