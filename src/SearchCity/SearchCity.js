@@ -1,9 +1,9 @@
 import React from 'react';
-import './Content.css';
+import './SearchCity.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Nav, Navbar, Form, FormControl,Button } from 'react-bootstrap';
+import { Form, FormControl,Button } from 'react-bootstrap';
 
-function Content() {
+function SearchCity() {
   return (
     <div className="Content">
       <Form inline className="centered">
@@ -14,4 +14,4 @@ function Content() {
   );
 }
 
-export default Content;
+export default SearchCity;

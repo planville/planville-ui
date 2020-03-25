@@ -1,17 +1,17 @@
 import React from 'react';
-import {Component} from 'react';
 import './PFooter.css';
-// import '../../resource/template.css'
+import {Link} from 'react-router-dom';
 
 
-class PFooter extends Component{
-  render(){
+const PFooter = () => {
     return (
     <div className="PFooter">
-      <a href="#" className="link">About us</a>
+      <Link to="/home">Home</Link> &nbsp; 
+      <Link to="/about">About us</Link> &nbsp; 
+      <Link to="/contact">Contact us</Link> &nbsp; 
       <div>&nbsp;</div>
     </div>
     );
   }
-}
+
 export default PFooter;
