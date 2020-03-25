@@ -21,12 +21,12 @@
   -webkit-box-shadow: 0 8px 6px -6px black;
 	   -moz-box-shadow: 0 8px 6px -6px black;
           box-shadow: 0 8px 6px -6px black;
-          font-size:25px;
+          font-size:20px;
 }
 
 .btn-outline-info {
   color: whitesmoke;
   border-color: #17a2b8;
   background-color:#17a2b8 ;
-  font-size:25px;
+  font-size:20px;
 }

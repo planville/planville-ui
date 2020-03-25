@@ -8,7 +8,7 @@ function Content() {
     <div className="Content">
       <Form inline className="centered">
           <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-          <Button variant="outline-info" className="button">Search By City</Button>
+          <Button variant="outline-info" className="button">Search City</Button>
         </Form>
     </div>
   );
