@@ -10,6 +10,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import Providers from '../Providers/Providers';
 
 
 class App extends React.Component {
@@ -24,6 +25,7 @@ class App extends React.Component {
             <Route path="/about" component={About} />
             <Route path="/home" component={Home} />
             <Route path="/contact" component={Contact} />
+            <Route path="/providers" component={Providers} />
         </Switch>
         <PFooter/>
       </Router>
