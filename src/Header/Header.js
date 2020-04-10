@@ -8,7 +8,7 @@ function Header() {
     
     <div className="Header">
         <Nav.Link style={{color: "white" }} href="#" >PlanVille</Nav.Link>
-        <nav class="Navbar__Items Navbar__Items--right">
+        <nav className="Navbar__Items Navbar__Items--right">
           <Nav.Link style={{color: "white"}} href="#devices">Devices</Nav.Link>
           <Nav.Link style={{color: "white"}} href="#plans">Plans</Nav.Link> 
         </nav>  
