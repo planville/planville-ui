@@ -5,15 +5,19 @@ import "react-select/dist/react-select.css";
 // Import React Table
 import ReactTable from "react-table";
 import "react-table/react-table.css";
+import Select from "react-select";
+import {byodColumns, contractColumns} from './columns';
+
+
 
 class Filter extends React.Component {
   constructor() {
     super();
     this.state = {
       filtered: [],
-      select2: undefined,
+      select2: 'Bell',
       columns: [],
-      data: []
+      data: [],
     };
   }
 
@@ -44,16 +48,19 @@ class Filter extends React.Component {
   async componentDidMount() {
     let type = 'byod' // 'contracts'
     let data = await this.getData(type);
+    let columns = null;
+    if(type === 'byod') {
+      columns = byodColumns;
+    } else {
+      columns = contractColumns;
+    }
+    
     console.log("Final data");
     console.log(data);
 
     this.setState((state) => {
       return {
-        columns: data.columns,
-      }
-    })
-    this.setState((state) => {
-      return {
+        columns: columns,
         data: data.plans,
       }
     })
@@ -86,7 +93,24 @@ class Filter extends React.Component {
     console.log(data);
     return (
       <div>
-        <br /><br />
+        Select Provider :{""}
+        <Select
+          style={{ width: "50%", marginBottom: "20px" }}
+          onChange={entry => {
+            this.setState({ select2: entry });
+            this.onFilteredChangeCustom(
+              entry.map(o => {
+                return o.value;
+              }),
+              "Provider"
+            );
+          }}
+          value={this.state.select2}
+          multi={true}
+          options={[...new Set(this.state.data.map(item => item.Provider))].map((o, i) => {
+            return { id: i, value: o, label: o };
+          })}
+        />
         <ReactTable
           getTdProps={() => ({
             style: {
