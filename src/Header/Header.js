@@ -7,10 +7,10 @@ function Header() {
   return (
     
     <div className="Header">
-        <Nav.Link style={{color: "white" }} href="#" >PlanVille</Nav.Link>
+        <Nav.Link style={{color: "white" }} href="/home" >PlanVille</Nav.Link>
         <nav class="Navbar__Items Navbar__Items--right">
-          <Nav.Link style={{color: "white"}} href="#devices">Devices</Nav.Link>
-          <Nav.Link style={{color: "white"}} href="#plans">Plans</Nav.Link> 
+          <Nav.Link style={{color: "white"}} href="/about">About Us</Nav.Link>
+          <Nav.Link style={{color: "white"}} href="/contact">Contact Us</Nav.Link> 
         </nav>  
     </div>
   );
