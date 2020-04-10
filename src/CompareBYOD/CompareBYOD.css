@@ -1,9 +1,18 @@
 .CompareBYOD {
-  border-radius: 12px;
-  font-size:40px;
-  padding:14px 30px ;
-  margin: 30px;
-  
-
-
+  position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-left: solid 4px #668ad8;
+    border-right: solid 4px #668ad8;
+    color: #668ad8;
+    background: #e1f3ff;
+    transition: .4s;
+    font-size:25px;
+    padding:15px;
+}
+.CompareBYOD:hover {
+  background: #668ad8;
+  color: #FFF;
 }

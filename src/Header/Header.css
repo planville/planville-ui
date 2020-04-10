@@ -1,6 +1,6 @@
 .Header {
   height: 100px;
-  background-image: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgba(150, 53, 156, 0.82) 8%, rgb(194, 43, 101) 26%, rgb(253, 29, 29) 50%, rgb(252, 100, 48) 74%, rgb(252, 135, 58) 86%, rgb(252, 176, 69) 100%);
+  background: #152F4F;
   color: whitesmoke;
   margin-bottom: 10px;
   text-align: right;

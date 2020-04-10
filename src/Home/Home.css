@@ -1,5 +1,12 @@
 .Home {
   text-align: center;
+  background: url("./home.webp") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-size: cover;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .centered {
@@ -7,4 +14,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.centeredText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+ 
+}
+h3 span{
+display: block;
+  margin: 11px 0 17px 0;
+  font-size: 45px;
+  line-height: 80px;
+  color: #f1ebe5;
+  text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
+  letter-spacing: -4px;
 }

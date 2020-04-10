@@ -3,7 +3,7 @@ import './SearchCity.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Switch, withRouter } from "react-router-dom";
 import {Form, FormControl, Button } from "react-bootstrap";
-import Providers from '../Providers/Providers';
+import Filter from '../Filter/Filter';
 
 class SearchCity extends React.Component {
   state = {
@@ -23,7 +23,7 @@ class SearchCity extends React.Component {
   handleSearchSubmit = () => {
     if (this.state.searchText) {
       this.props.history.push({
-        pathname: "/providers",
+        pathname: "/filter",
         state: {
           searchText: this.state.searchText
         }
@@ -43,12 +43,12 @@ class SearchCity extends React.Component {
               placeholder="Search"
               className="mr-sm-2"
             />
-            <Button onClick={this.handleSearchSubmit} variant="outline-info">
+            <Button onClick={this.handleSearchSubmit} variant="outline-info" className="design">
               Search
             </Button>
           </Form>
            <Switch>
-           <Route exact path="/providers" component={Providers} />
+           <Route exact path="/filter" component={Filter} />
          </Switch>
           </>
     );
