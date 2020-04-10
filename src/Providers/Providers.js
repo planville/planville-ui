@@ -1,12 +1,16 @@
 import React from 'react';
 import './Providers.css';
 
-function Providers() {
-  return (
-    <div className="Providers">
-      <h1>Providers</h1>
-    </div>
-  );
-}
+
+class Providers extends React.Component {
+  render() {
+          
+          return (
+              <div className="centered">
+                  The data from parent is: {this.props.location.state.searchText}
+              </div>
+          );
+      }
+  }
 
 export default Providers;
