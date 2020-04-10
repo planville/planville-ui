@@ -25,7 +25,7 @@ class Contact extends React.Component{
           </div>
   
           <div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-            <input id="email" class="input100" type="text" name="email" placeholder="Eg. example@email.com"/>
+            <input id="email" class="input100" type="text" name="email" placeholder="Enter Email address"/>
             <span class="focus-input100"></span>
           </div>
 
@@ -57,8 +57,8 @@ class Contact extends React.Component{
               <i className="fa fa-map-marker"></i>Address
               </span>
   
-              <span class="txt2">
-                Mada Center 8th floor, 379 Hudson St, New York, NY 10018 US
+              <span class="txt3">
+              401 Sunset Ave, Windsor, ON N9B 3P4, Canada
               </span>
             </div>
           </div>
@@ -74,7 +74,7 @@ class Contact extends React.Component{
               </span>
   
               <span class="txt3">
-                +1 800 1236879
+                +1 800 1234567
               </span>
             </div>
           </div>
@@ -90,7 +90,7 @@ class Contact extends React.Component{
               </span>
   
               <span class="txt3">
-                contact@example.com
+                contact@planVille.com
               </span>
             </div>
           </div>

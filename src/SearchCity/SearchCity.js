@@ -43,7 +43,7 @@ class SearchCity extends React.Component {
               placeholder="Search"
               className="mr-sm-2"
             />
-            <Button onClick={this.handleSearchSubmit} variant="outline-info">
+            <Button onClick={this.handleSearchSubmit} variant="outline-info" className="design">
               Search
             </Button>
           </Form>

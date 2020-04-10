@@ -6,7 +6,7 @@ class Filter extends React.Component {
     return (
   
       <div>
-        <h1>Filter</h1>
+        <h3>Filter value: {this.props.location.state.searchText}</h3>
        </div>
   
     );
