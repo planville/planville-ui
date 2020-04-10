@@ -7,7 +7,7 @@ class Providers extends React.Component {
           
           return (
               <div className="centered">
-                  The data from parent is: {this.props.location.state.searchText}
+                 <h1>Providers</h1>
               </div>
           );
       }

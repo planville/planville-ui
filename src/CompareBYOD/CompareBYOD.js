@@ -1,14 +1,18 @@
 import React from 'react';
 import './CompareBYOD.css';
-import './../style/w3.css';
 
-function CompareBYOD() {
+class CompareBYOD extends React.Component{
+
+render () {
   return (
-    <div className="CompareBYOD">
-      <button className="CompareBYOD" type="button">Contract Based</button>
-      <button className="CompareBYOD" type="button">BRING YOUR OWN DEVICE</button>
+
+    <div>
+      <button className="CompareBYOD" type="button" value="Contract Based">Contract Based</button>
+      <button className="CompareBYOD" type="button" value="BRING YOUR OWN DEVICE" >BRING YOUR OWN DEVICE</button>
      </div>
+
   );
+}
 }
 
 export default CompareBYOD;

@@ -1,9 +1,7 @@
 .CompareBYOD {
-  border-radius: 12px;
+  border-radius: 15px 50px;
+  background: #73AD21;
   font-size:40px;
   padding:14px 30px ;
   margin: 30px;
-  
-
-
 }

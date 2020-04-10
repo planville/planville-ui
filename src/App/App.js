@@ -11,6 +11,8 @@ import {
   Route
 } from "react-router-dom";
 import Providers from '../Providers/Providers';
+import Filter from '../Filter/Filter';
+
 
 
 class App extends React.Component {
@@ -26,6 +28,7 @@ class App extends React.Component {
             <Route path="/home" component={Home} />
             <Route path="/contact" component={Contact} />
             <Route path="/providers" component={Providers} />
+            <Route path="/filter" component={Filter} />
         </Switch>
         <PFooter/>
       </Router>
