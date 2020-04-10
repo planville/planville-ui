@@ -13,8 +13,6 @@ import {
 import Providers from '../Providers/Providers';
 import Filter from '../Filter/Filter';
 
-
-
 class App extends React.Component {
 
   render () {
