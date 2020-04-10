@@ -9,6 +9,7 @@ const PFooter = () => {
       <Link to="/home">Home</Link> &nbsp; 
       <Link to="/about">About us</Link> &nbsp; 
       <Link to="/contact">Contact us</Link> &nbsp; 
+      <Link to="/providers">Providers</Link> &nbsp;
       <div>&nbsp;</div>
     </div>
     );
