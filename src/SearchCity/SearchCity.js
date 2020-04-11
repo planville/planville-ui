@@ -49,7 +49,7 @@ class SearchCity extends React.Component {
           </Form>
            <Switch>
            <Route exact path="/filter" component={Filter} />
-         </Switch>
+         </Switch> 
           </>
     );
   }

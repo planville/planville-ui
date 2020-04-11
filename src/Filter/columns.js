@@ -1,5 +1,5 @@
 export const byodColumns = {
-    'Header': 'Buy Your Own Device',
+    'Header': 'Bring Your Own Device',
     'columns': [
         {'Header': "Price", 'accessor': "Price"},
         {'Header': "Internet", 'accessor': "Internet"},
